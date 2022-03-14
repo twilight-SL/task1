@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.title {
+  margin-top: 47px;
+  margin-left: 360px;
+  width: 264px;
+  height: 188px;
+  font-size: 80px;
+  font-family: Roboto, Regular;
+  line-height: 94px;
+  text-align: left;
+  color: #000000;
+  opacity: 1;
+}
+
+.line_primary {
+  width: 1200px;
+  height: 2px;
+  background-color: #000000;
+  margin-bottom: 16px;
+}
+
+.line_secondary {
+  width: 1200px;
+  height: 1px;
+  background-color: #000000;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.line_card {
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  opacity: 1;
+}
+
+.line_ortho {
+  border-left: 1px solid #96a9ca;
+  opacity: 1;
+}
+
+.JC_Img {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+span {
+  font-family: Roboto, Medium;
+  margin-left: 16px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #a00404;
+  opacity: 1;
+}
+
+.container h3,
+.container_exp h3 {
+  font-family: Noto Sans, Regular;
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.container li {
+  font-family: Roboto, Light;
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.container h2,
+.container_exp h2 {
+  font-family: Noto Sans, Regular;
+  line-height: 43px;
+  font-size: 32px;
+}
+
+h3.profile_main {
+  width: 486x;
+  height: 108px;
+  margin-bottom: 24px;
+}
+
+h3.profile_minor {
+  width: 792px;
+  height: 108px;
+  margin-bottom: 72px;
+}
+
+li.edu_degree {
+  text-align: left;
+  width: 600px;
+  height: 34px;
+  margin-bottom: 24px;
+}
+
+.card_skill,
+.card_contact {
+  letter-spacing: 0px;
+  padding-top: 24px;
+  padding-bottom: 36px;
+  background: #415165 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.card_skill li {
+  font-family: Roboto, Light;
+  padding-left: 24px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.card_contact li {
+  text-align: center;
+  font-family: Roboto, Light;
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.card_skill h2,
+.card_contact h2 {
+  display: inline;
+  font-size: 32px;
+}
+
+.container_exp li {
+  height: 34px;
+  margin-bottom: 24px;
+  letter-spacing: 0px;
+}
+
+.simtree {
+  width: 400px;
+  height: 28px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+
+.container_exp img {
+  width: 90px;
+  height: 90px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.Img {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.card_contact img {
+  width: 48px;
+  height: 48px;
+  margin-right: 24px;
+}
+
+li {
+  list-style-type: none;
+}
